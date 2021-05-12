@@ -1,0 +1,50 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.http
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+deploy/k8s/.rendered
+requests
+/home.json
+
+### Terraform ###
+.terraform
+
+### Performance Test Result ###
+/performance-tests/*-html/
+/performance-tests/*.csv
+/performance-tests/*.jpg
+/performance-tests/*.txt
+
+
+### OS ###
+.DS_Store
